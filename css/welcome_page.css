@@ -1,0 +1,62 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(231, 224, 224);
+    font-size: 1.6rem;
+}
+
+.page_wrapper {
+    min-height: 100vh;
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_wrapper {
+    text-align: center;
+}
+
+.header_1 {
+    font-size: 3.5rem;
+}
+
+.header_2 {
+    font-size: 2rem;
+}
+
+.pre_and_description_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pre {
+    text-align: left;
+    width: min-content;
+}
+
+.input_button_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+#file_input {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+.download_svg {
+    overflow: visible;
+    padding-right: 5px;
+    fill: #fff;
+    height: 2rem;
+    width: 2rem;
+}
